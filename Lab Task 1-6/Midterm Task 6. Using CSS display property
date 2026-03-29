@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Task 6 - Display Property</title>
 
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container{
+            width: 800px;
+            margin: auto;
+        }
+
+        .block-input{
+            display: block;
+            width: 300px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        .inline-section{
+            margin-top: 20px;
+        }
+
+        .inline-section p{
+            display: inline-block;
+            width: 400px;
+            vertical-align: middle;
+        }
+
+        .inline-section button{
+            display: inline-block;
+            vertical-align: middle;
+            padding: 8px 15px;
+            margin-left: 5px;
+        }
+
+        .google{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .google img{
+            width: 250px;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+
+        .google input{
+            width: 400px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid gray;
+        }
+
+        .signup{
+            width: 350px;
+            background: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .signup input{
+            width: 43%;
+            padding: 8px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .signup .email{
+            width: 93%;
+            display: block;
+        }
+
+        .signup button{
+            width: 100%;
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+        }
+
+        .uber{
+            width: 350px;
+            background: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .uber input{
+            width: 93%;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .uber button{
+            padding: 10px 15px;
+            display: inline-block;
+            margin-right: 5px;
+            border: none;
+        }
+
+        .black{
+            background: black;
+            color: white;
+        }
+
+        .gray{
+            background: lightgray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Display Property Activity</h2>
+
+    <input type="text" placeholder="Name" class="block-input">
+    <input type="text" placeholder="Email" class="block-input">
+
+    <div class="inline-section">
+        <p>
+            Thanks for chatting with our customer support.
+            Would you like to take our quick survey?
+        </p>
+
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+
+    <div class="google">
+        <img src="https://www.pngmart.com/files/16/official-Google-Logo-PNG-Clipart.png">
+        <input type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div class="signup">
+        <h3>Sign Up</h3>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <input type="text" placeholder="Email" class="email">
+        <button>Sign Up</button>
+    </div>
+
+    <div class="uber">
+        <h2>Request a ride now</h2>
+        <input type="text" placeholder="Enter pickup location">
+        <input type="text" placeholder="Enter destination">
+        <button class="black">Request now</button>
+        <button class="gray">Schedule for later</button>
+    </div>
+
+</div>
+
+</body>
+</html>
