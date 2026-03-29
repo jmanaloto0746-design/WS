@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .header img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 8px 15px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .nav a:hover {
+            background-color: #555;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <img src="c:\Users\imarijanegueco\Downloads\675cea53-cb33-4f0d-841c-5eeb94aedf91.jpg" alt="My Profile" width="150" height="150">
+            <h1>MANALOTO, JAY-C BULANADI</h1>
+            <p>
+                Email: <a href="mailto:jayc@gmail.com" style="color:yellow;">jayc@gmail.com</a> |
+                Phone: 09513238928 |
+                Address: Tal, Marimla Concepcion Tarlac |
+                FB: Jay-c Manaloto
+            </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav">
+            <a href="#summary">Summary</a>
+            <a href="#education">Education</a>
+            <a href="#hardware">Hardware Skills</a>
+            <a href="#software">Software Skills</a>
+            <a href="#experience">Experience</a>
+        </div>
+
+        <hr>
+
+        <div class="section" id="summary">
+            <h2>Summary</h2>
+            <p>Motivated BSIT student seeking an opportunity to apply my technical knowledge and contribute to organizational growth.</p>
+        </div>
+
+        <hr>
+
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <p><strong>College</strong><br>PSAU<br>2025 - Present</p>
+            <p><strong>Senior High School</strong><br>Anastacio G. Yumul Highschool<br>ABM<br>2022 - 2024</p>
+            <p><strong>High School</strong><br>Anastacio G. Yumul Highschool<br>2018 - 2022</p>
+        </div>
+
+        <hr>
+
+        <div class="section" id="hardware">
+            <h2>Hardware Skills</h2>
+            <ul>
+                <li>Assisted in network setup</li>
+                <li>Managed software installations</li>
+                <li>Basic computer troubleshooting</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="section" id="software">
+            <h2>Software Skills</h2>
+            <ul>
+                <li>Basic Java Programming</li>
+                <li>HTML and CSS</li>
+                <li>Microsoft Office</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="section" id="experience">
+            <h2>Experience</h2>
+            <p>Work immersion at Barangay Office in Concepcion.</p>
+            <p>Completed 80 hours of on-the-job training as a hardware/software technician at COMPRIFIX TECHNUB INFORMATION TECHNOLOGY SOLUTION.</p>
+        </div>
+
+    </div>
+</body>
+</html>
+Write to Jay-c Manaloto
